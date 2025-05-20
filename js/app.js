@@ -25,4 +25,8 @@ function adicionar() {
     document.get.ElementById('quantidade').value = 0;
 }
 
-
+function limpar() {
+    totalGeral = 0;
+    document.getElementById('lista-produtos').innerHTML = '';
+    document.getElementById('valor-total').textContent = 'R$ 0';
+}
